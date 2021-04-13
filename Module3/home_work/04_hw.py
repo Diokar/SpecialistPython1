@@ -5,3 +5,21 @@
 # Пример:
 # Дано: [2, -5, 8, 9, -25, 25, 4]
 # Результат: [3, 5, 2]
+
+#           !!!нужна помощь, не пойму в чем ошибка!!!
+
+from random import randint
+numbers = []
+n = int(input("число n: "))
+list = []
+for el in range(n):
+    list.append(randint(-100,100))
+print(list)
+#Сформировали список со случайными числами
+result_list = []
+
+for el in list:
+    if (el**0.5).is_integer(): #не пойму в чем ошибка, насколько я прочитал метод is_integer() должен отбирать целые числа...
+        result_list = result_list + el
+
+print(result_list)
