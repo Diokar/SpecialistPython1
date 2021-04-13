@@ -2,3 +2,12 @@
 # Вывести на экран сумму всех элементов.
 
 # TODO: your code here
+my_list = [0, 10, 2, 1, -12]
+summ = 0
+summ1 = 0
+i = 0
+for summ in my_list:
+    summ1 =summ1 + summ
+
+
+print(summ1)
