@@ -15,3 +15,15 @@ fruits = ["яблоко", "банан", "киви", "арбуз"]
 
 # Важно! Ваше решение должно работать с любыми корректными "исходными данными"
 # Проверьте это, добавив или удалив несколько элементов списка
+i = 1
+long = 0
+for k in fruits:
+    if long < len(k): long = len(k)
+#print(long)
+for k in fruits:
+    if len(k) < long:
+        print(i,".",(" "*(long - len(k))),k)
+        i = i+1
+    else:
+        print(i,". ",k)
+        i = i+1
