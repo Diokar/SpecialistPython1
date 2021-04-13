@@ -8,3 +8,12 @@ surname = input("Фамилия: ")
 
 
 print(name, surname)
+name = input("Имя: ")
+surname = input("Фамилия: ")
+a = name[0]
+b = surname[0]
+a = a.upper()
+b = b.upper()
+name1= a + name[1:]
+surname1 = b + surname[1:]
+print(name1, surname1)
