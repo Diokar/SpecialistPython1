@@ -8,3 +8,12 @@ item = {"name": "Кроссовки", "price": "7540.5", "currency": "rub", "cou
 dollar_rate = 74.12
 
 # TODO: your code here
+item = {"name": "Кроссовки", "price": "7540.5", "currency": "rub", "count": "10"}
+dollar_rate = 74.12
+f = float(item["price"])
+#print(f)
+k = float(item["count"])
+f= f/dollar_rate
+s = f * k
+
+print("Стоимость всех кроссовок = ",s)
