@@ -10,3 +10,10 @@
 # 1234
 
 # TODO: your code here
+n = int(input("число n: "))
+a = 1
+b = 1
+while a <= n:
+    print(b)
+    a = a+1
+    b = (b*10) + a
