@@ -3,3 +3,6 @@
 # то программа запрашивает ввод снова.
 
 # TODO: your code here
+text = ""
+while text !="хватит":
+    text = input ("Введите строку: ")
