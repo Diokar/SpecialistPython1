@@ -7,3 +7,11 @@
 # Формат выходных данных: Необходимо вывести сумму чисел написанных на кирпичах.
 
 # TODO: your code here
+n = int(input("Введите количество уровней в прирамиде, n: "))
+registr = 1
+sum = 0
+while registr <= n:
+    sum = sum + (registr**2)
+    registr = registr + 1
+
+print("сумма равна ", sum)
