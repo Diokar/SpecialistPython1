@@ -3,7 +3,12 @@
 
 def average(*args):
     # TODO: your code here
-    pass
+    passdef average(*args):
+    n=len(args)
+    s=0
+    for arg in range(n):
+        s+=args[arg]
+    return s/n
 
 
 print(average(3, 4, 8))
